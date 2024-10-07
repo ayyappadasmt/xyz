@@ -27,7 +27,7 @@ st.markdown("""
 st.sidebar.header("Input Weather Data")
 
 # Load the dataset
-df = pd.read_csv("E:\weather_predictor\seattle-weather.csv")
+df = pd.read_csv("seattle-weather.csv")
 df.drop(["date"], axis=1, inplace=True)
 
 # Encode the weather column to numerical values
